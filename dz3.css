@@ -1,0 +1,181 @@
+*
+{
+    margin: 0px;
+    padding 0px;
+}
+.header
+{
+    background-color: whitesmoke;
+}
+.header p
+{
+    font-style: italic;
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+.header .tabela
+{
+    list-style: none;
+    text-align: right;
+}
+.header .tabela li
+{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.header .tabela li a:hover
+{
+    color: darkblue;
+    text-transform: uppercase;
+    font-family: cursive,'Times New Roman', Times, serif;
+    background-color:darkblue;
+    color: whitesmoke;
+    transition: 0.5s;
+    
+}
+
+.forma
+{
+    background-image: url(./wolfwallp.jpg);
+    background-size: cover;
+    background-position: right;
+    color: whitesmoke;
+    padding: 20px;
+    padding-left: 50p;
+}
+.ssection h1
+{
+    color: darkblue;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+    font-family: monospace;
+}
+
+.ssection
+{
+    padding-top: 100px;
+}
+.ssection h2
+{
+    text-align: center;
+    color:whitesmoke
+}
+.ssection h3
+{
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+.ssection p
+{
+    text-align: center;
+    color: darkblue;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.ssection .item
+{
+    background-color: #316F7D;
+    -webkit-box-shadow: 6px 7px 9px 2px #686868; 
+    box-shadow: 6px 7px 9px 2px #686868;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color:whitesmoke;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.ssection .itemz
+{
+    background-color:#423F84;
+    -webkit-box-shadow: 6px 7px 9px 2px #686868; 
+    box-shadow: 6px 7px 9px 2px #686868;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color:whitesmoke;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+.ssection .item:hover
+{
+    background-color: #423F84; 
+    cursor: pointer;
+    margin-top: -10px;
+    -webkit-box-shadow: 6px 7px 9px 2px #686868; 
+    box-shadow: 6px 7px 9px 2px #686868;
+}
+.ssection .itemz:hover
+{
+    background-color: #316F7D; 
+    cursor: pointer;
+    margin-top: -10px;
+    -webkit-box-shadow: 6px 7px 9px 2px #686868; 
+    box-shadow: 6px 7px 9px 2px #686868;
+}
+
+.ssection .item h4
+{
+    color: whitesmoke;
+    font-family: google;
+    color: whitesmoke;
+}
+.ssection .item p
+{
+    font-style: italic;
+    color: whitesmoke;
+}
+.ssection .item a
+{
+    color: whitesmoke;
+    border: 1px  whitesmoke;
+}
+.ssection .item a:hover
+{
+    background-color: #04022E;
+    text-decoration: none;
+    transition: 0.3s ;
+    border: 2px solid #161340;
+    
+}
+
+.vesti
+{
+    background-color: #316F7D;
+}
+.vesti h2
+{
+    color: whitesmoke;
+    padding-top: 20px;
+}
+.vesti img
+{
+    padding: 30px;
+}
+.vesti p
+{
+    font-size: 18px;
+}
+
+.footer
+{
+    color: whitesmoke;
+    background-color: #423F84;
+    text-align: right;
+}
+
+.footer p
+{
+    display: inline-block;
+    margin-left: 15px;
+    padding-right: 10px;
+}
